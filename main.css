@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.logo{
+    position: relative;
+    top: 5px;
+    left: 10px;
+    display: inline;
+}
+.title{
+    font-size: 20px;
+    font-weight: 300px;
+    font-family: 'Oswald', sans-serif;
+    position: relative;
+    left: 300px;
+    bottom: 10px;
+    display: inline-block;
+}
+.login-out{
+    position: relative;
+    top: 7px;
+    right:10px;
+    float: right;
+    display: inline;
+}
+
+p{
+    display: inline;
+}
+img{
+    display: inline;
+}
+.container{
+    margin-top: 30px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.header{
+    border: 3px solid whitesmoke;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(240, 232, 232);
+}
