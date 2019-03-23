@@ -1,0 +1,117 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.logo{
+    position: relative;
+    top: 5px;
+    left: 10px;
+    display: inline;
+}
+.title{
+    font-size: 30px;
+    font-weight: 300px;
+    font-family: 'Germania One', cursive;
+    position: relative;
+    left: 300px;
+    bottom: 10px;
+    display: inline-block;
+}
+.login-out{
+    position: relative;
+    top: 7px;
+    right:10px;
+    float: right;
+    display: inline;
+}
+
+p{
+    display: inline;
+}
+img{
+    display: inline;
+}
+.container{
+    margin-top: 30px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.header{
+    border: 3px solid whitesmoke;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(240, 232, 232);
+}
+ul li{
+    position: relative;
+    top: 5px;
+    margin: 4px;
+    float: right;
+    display: inline-block;
+}
+#date{
+    position: relative;
+    bottom: 10px;
+}
+.search{
+    font-family: 'Lato', sans-serif;
+    background-color: #fab1a0;
+    width: 100%;
+    height: 40px;
+    border: 3px solid whitesmoke;
+}
+table, th, td, tr {
+    font-family: 'Source Code Pro', monospace;
+    text-align: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    background-color: rgb(240, 232, 232);
+    border: 3px solid whitesmoke;
+    border-collapse: collapse;
+}
+table{
+      width: 100%;
+}
+th,td
+#note0{
+    width: 5%;
+}
+#noteThreads{
+    width: 10%;
+}
+#noteForum{
+    width: 30%;
+}
+#noteLastpost{
+    width:55%;
+}
+#note{
+    text-align: center !important;
+}
+.myButton {
+	-moz-box-shadow:inset 0px 39px 0px -24px #e67a73;
+	-webkit-box-shadow:inset 0px 39px 0px -24px #e67a73;
+	box-shadow:inset 0px 39px 0px -24px #e67a73;
+	background-color:#e4685d;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:10px;
+    padding:6px 15px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #b23e35;
+}
+.myButton:hover {
+	background-color:#eb675e;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
